@@ -1,10 +1,14 @@
 ---
 layout: home
 ---
-# About Theme
+# Hi
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+I'm Tal. Sometimes I think of myself as a data engineer, lurking somewhere between data science and the ops to deploy them. 
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+Most of my proffesional life and a lot of interest has been in finance and financial technology, these days I work along those lines at Citi. 
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+<div class="about-info">  
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include recent_posts.html %}
+</div>
