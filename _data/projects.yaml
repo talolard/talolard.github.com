@@ -1,0 +1,19 @@
+- title: Generous Tree - Midburn Art Installation
+  url: https://github.com/talolard/FLPP
+  image: /images/gentree2.jpg
+  completed: true
+
+- title: Math Art - Art +Graph Theory + C++
+  url: https://www.facebook.com/97854MathArt/
+  image: /images/mathart.jpg
+  completed: true
+
+- title: Machine Transcription
+  url: http://smart-scribe-fe-test.s3-website-us-east-1.amazonaws.com/
+  image: https://img.jch254.com/Banner.jpg
+  completed: true
+
+- title: Laser Harp (Source)
+  url: https://github.com/talolard/LaserHarp
+  image: /images/laserharp.jpg
+  completed: false

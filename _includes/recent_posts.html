@@ -1,0 +1,12 @@
+MY LATEST POSTS
+{% for post in site.posts offset: 0 limit: 3  %}
+
+<br>
+{% if page.title %}
+    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+{% endif %}
+{% if post.title %}
+<br>
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+{% endfor %}
