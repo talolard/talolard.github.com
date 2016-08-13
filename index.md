@@ -7,6 +7,8 @@ I'm Tal. Sometimes I think of myself as a data engineer, lurking somewhere betwe
 
 Most of my proffesional life and a lot of interest has been in finance and financial technology, these days I work along those lines at Citi. 
 
+I write a bi-weekly [newsletter](/newsletter) about the things that interest me.
+
 <div class="about-info">  
   {% assign post = site.posts.first %}
   {% assign content = post.content %}
