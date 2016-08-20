@@ -6,7 +6,7 @@ category: Art
 tags: ["Art","C++","Arduino"]
 image: /images/gentree2.jpg
 ---
-
+See that pretty tree on the left? Max and I made it. This is about how we did it. 
 # Part 1 - The Experience
 
 
