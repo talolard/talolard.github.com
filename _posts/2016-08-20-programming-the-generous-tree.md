@@ -269,6 +269,8 @@ Not code
 
 ## My Favourite fastLED Features
 As I mentioned, fastLED is an amazing library that has tons of awesome features to make beautiful light art. I want to dive into two under advertised and super useful ones.
+
 ### Color Palettes
 
-### Timing
+One of the great features of fastled is its support of very smoothe color transitions via the CRGBPalette16 object. It takes 16 colors and generates a 256 color pallete for you, interpolating between the colors. We took images we liked from the web, extracted their main colors in hex format and psoted them in the code to get a rich variety of color shemes with super cohesive transitions between them. Here's the code for some of the color shemes.
+{%gist f1619d9fe864e7be67a1c8ac929dbbbf %}
