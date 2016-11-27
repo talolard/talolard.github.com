@@ -16,7 +16,7 @@ For the uninitiated, Lambda is a service that allows you to essentially upload a
 You can think of Lambda as the natural extension to containers. Containers (like Docker) allow you to easily deploy multiple workloads to a fleet of servers, you no longer deploy to the server, you deploy to the fleet and if there is enough room in the fleet your container runs. Lambda takes this one step further by abstracting away the management of the underlying server fleet and containerization. You just upload code, AWS containerizes it and puts it on their fleet. 
 
 ## Why did I choose lambda?
-A bit of background. My latest side project is [Smart Scribe](http://smart-scribe-fe-test.s3-website-us-east-1.amazonaws.com/), an automated transcription service. The service processes large media files in memory and I realized that building a service that would overcome the memory bottleneck on traditional architecture would be difficult and expensive. I knew that using a serverless architecture would help overcome that bottleneck. 
+A bit of background. My latest side project is [Smart Scribe](http://www.smartscribe.io/), an automated transcription service. The service processes large media files in memory and I realized that building a service that would overcome the memory bottleneck on traditional architecture would be difficult and expensive. I knew that using a serverless architecture would help overcome that bottleneck. 
 Also, I hate paying for things I don't use, so buying by 100 milisecond of compute was attractive. 
 
 # How AWS Lambda makes me happy
