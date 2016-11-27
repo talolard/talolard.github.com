@@ -8,9 +8,9 @@ tags: ["Serverless","AWS","node"]
 # Intro
 
 ## What is lambda
-Side projects are my way of learning new technologies. One that I've been anxious to try is AWS Lambda and I finnaly got the chance. There is always room for improvement, but this post will focus on the things that make Lambda a great service in my opinion.
+Side projects are my way of learning new technologies. One that I've been anxious to try is AWS Lambda and I finaly got the chance. There is always room for improvement, but this post will focus on the things that make Lambda a great service in my opinion.
 
-For the uninitiated, Lambda is a service that allows you to essentially upload a function and AWS will make sure the hardware is there to run it. You pay for the compute time in hundred milisecond increments instead of by the hour, and you can run as many copies of your lambda function as needed. 
+For the uninitiated, Lambda is a service that allows you to essentially upload a function and AWS will make sure the hardware is there to run it. You pay for the compute time in hundred millisecond increments instead of by the hour, and you can run as many copies of your lambda function as needed. 
 
 
 You can think of Lambda as the natural extension to containers. Containers (like Docker) allow you to easily deploy multiple workloads to a fleet of servers, you no longer deploy to the server, you deploy to the fleet and if there is enough room in the fleet your container runs. Lambda takes this one step further by abstracting away the management of the underlying server fleet and containerization. You just upload code, AWS containerizes it and puts it on their fleet. 
@@ -26,7 +26,7 @@ Also, I hate paying for things I don't use, so buying by 100 milisecond of compu
 
 I love to invest my time in side projects, I get to create and learn. Perhaps irrationaly, I don't like to put a lot of money into them from the get go. When I start building a project I want it up all the time so that I can show it around. On the other hand I know that 98% of the time, my resources will not be used. 
 
-Serverless infratrucutre saves me that 98% by allowing me to pay by the millisecond instead of by the hour. 98% is a lot of savings by any account
+Serverless infrastrucutre saves me that 98% by allowing me to pay by the millisecond instead of by the hour. 98% is a lot of savings by any account
 
 
 ## I don't have to think about servers
@@ -36,9 +36,9 @@ To illustrate this point, here are a few things that have slowed me down before 
 
 1. Having to reconfigure because I forgot to set the IP address of an instance to elastic and the address went away when I stopped it (to save money)
 2. Worrying about disk space. Sometimes I write big temp files concurrently, sometimes I output large logs locally. Having AWS take care of the infrastructure lets me abuse the file system as I wish, and someone else takes care of it
-3. Running out of memory. This is a fine point because a single lmabda function can only use 1.5 G of memory. Applications that need to hold large data sets in memory might not benefit from lambda, but applications that need to hold many small to medium sized data sets in memory or prime candidates.
+3. Running out of memory. This is a fine point because a single lamabda function can only use 1.5 G of memory. Applications that need to hold large data sets in memory might not benefit from lambda, but applications that need to hold many small to medium sized data sets in memory or prime candidates.
 
-Smart Scribe works with fairly large media files and we need to store them in memory with overhead. Even a few concurrent users can easily lead to problems with availble memory - even with a swap file (and we hate configuring servers so we don't want one). Lambda garauntees that every call to my endpoints will receive the requisite amount of memory. That's priceless. 
+Smart Scribe works with fairly large media files and we need to store them in memory with overhead. Even a few concurrent users can easily lead to problems with available memory - even with a swap file (and we hate configuring servers so we don't want one). Lambda guarantees  that every call to my endpoints will receive the requisite amount of memory. That's priceless. 
 
 ## Deployments are fast
 
@@ -60,4 +60,4 @@ I think that this fact is what makes Lambda so convenient, the overhead you pay 
 
 # The punch line
 
-One of the deep axioms of the world is "Good, Fast, Cheap : Choose two". AWS Lambda takes a stab at challanging that axiom. 
+One of the deep axioms of the world is "Good, Fast, Cheap : Choose two". AWS Lambda takes a stab at challenging that axiom. 
